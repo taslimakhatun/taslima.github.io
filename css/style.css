@@ -1,0 +1,112 @@
+#about .about-title {
+  font-family: "Cerebri-bold";
+  font-size: 36px;
+  color: #1d2c44;
+  line-height: 1;
+  display: block;
+  margin-bottom: 25px; }
+
+#about .about-breadcrumb {
+  font-family: "Cerebri-regular";
+  font-size: 16px;
+  color: #1d2c44;
+  line-height: 1;
+  display: block;
+  margin-bottom: 30px; }
+  #about .about-breadcrumb span {
+    color: #f17070; }
+
+#about .about-us_block .about-us_img {
+    margin-bottom: 20px;
+}
+.about-paragraph {
+  font-family: "Cerebri-regular";
+  font-size: 16px;
+  color: #1d2c44;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 25px; }
+
+   .count .count-up {
+    width: 180px;
+    background-color: #e9bbbb;
+    box-shadow: 0px 4px 18px 0 rgba(32, 45, 73, 0.1);
+    display: inline-block;
+    border-radius: 50%;
+    padding: 50px 0;
+    text-align: center;
+    transition: 0.3s ease;
+}
+.count .count-up span {
+    font-family: "Cerebri-bold";
+    font-size: 36px;
+    color: #1d2c44;
+    line-height: 1;
+    display: block;
+    margin-bottom: 6px;
+}
+.count .count-up p {
+    font-family: "Cerebri-regular";
+    font-size: 18px;
+    color: #646d7c;
+    line-height: 1;
+    display: block;
+}
+.count .count-up:hover {
+    background-color: #f17070;
+}
+.count .count-up:hover span {
+    color: #fff;
+}
+.count.count-up:hover p {
+    color: #fff;
+}
+.bg-light {
+    background-color: #f8f9fa!important;
+    margin-top: 29px;
+    padding: 12px;
+}
+
+
+.team-area{
+    margin-top: 3%;
+}
+.single-member{
+    box-shadow: rgba(58,78,95,0.2) 0 10px 16px,rgba(58,78,95,0.05) 0 -5px 16px;
+    margin-bottom: 22px;
+}
+.single-member .team-heading{
+    background-image: url(../image/team1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+.single-member .member-img{
+    position: relative;
+    top: -71px;
+    margin-bottom: -77px;
+}
+.single-member .member-img img{
+    width: 137px;
+    height: 144px;
+    max-width: 145px;
+    max-height: 167px;
+    border-radius: 50%;
+    border:5px solid rgba(255,255,255,0.5);
+}
+.member-data{
+    padding:5%;
+}
+.member-info h2{
+   margin:0;
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: bold;
+   padding-bottom: 10px;
+}
+.member-info p{
+   margin:auto;
+   font-size: 16px;
+  width: 90%;
+  margin-bottom: 10%;
+}
